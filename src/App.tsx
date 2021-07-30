@@ -6,7 +6,7 @@ import Chart from './components/Chart'
 const App = (): JSX.Element => {
   return (
     <Box m={4}>
-      <Typography variant="h3" component="h1">Advertising Data ETL-V</Typography>
+      <Typography variant="h3" component="h1" gutterBottom>Advertising Data ETL-V</Typography>
       <Filters />
       <Chart />
     </Box>
