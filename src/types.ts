@@ -5,3 +5,8 @@ export interface IAdDataEntity {
   clicks: number,
   impressions: number,
 }
+
+export interface IFilters {
+  datasources: (string | number)[],
+  campaigns: (string | number)[],
+}
