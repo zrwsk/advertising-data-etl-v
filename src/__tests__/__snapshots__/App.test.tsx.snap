@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should show all the data 1`] = `
+<ul
+  data-testid="chart-data"
+>
+  <li>
+    01.01.2020, 543592, 2574
+  </li>
+  <li>
+    02.01.2020, 1000, 2112
+  </li>
+  <li>
+    01.02.2020, 123, 3422
+  </li>
+  <li>
+    03.03.2020, 4342, 5664
+  </li>
+  <li>
+    04.05.2020, 5435435, 24324
+  </li>
+</ul>
+`;
+
+exports[`App component should show filtered data 1`] = `
+<ul
+  data-testid="chart-data"
+>
+  <li>
+    01.02.2020, 123, 3422
+  </li>
+</ul>
+`;

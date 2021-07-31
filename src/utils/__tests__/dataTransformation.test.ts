@@ -4,7 +4,7 @@ import mockData from '../../__fixtures__/mockData';
 describe('utils.dataTransformation', () => {
   describe('getFilterOptions', () => {
     it('should return all unique values', () => {
-      expect(getFilterOptions(mockData, 'datasource')).toEqual(['D1', 'D3', 'D6', 'D2']);
+      expect(getFilterOptions(mockData, 'datasource')).toEqual(['D3', 'D1', 'D6', 'D2']);
     });
   });
 

@@ -3,7 +3,7 @@ import { getHeadingText, formatYAxisTick } from '../chart';
 describe('utils/chart', () => {
   describe('getHeadingText', () => {
     it('should return "All Datasources" and "All campaigns" if filters not applied', () => {
-      expect(getHeadingText({ datasources: [], campaigns: [] })).toBe('All Datasources; All Campaigns')
+      expect(getHeadingText({ datasources: [], campaigns: [] })).toBe('All Datasources; All Campaigns');
     });
 
     it('should list of datasources and campaigns if selected', () => {

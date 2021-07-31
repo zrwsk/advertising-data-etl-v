@@ -1,5 +1,12 @@
 const mockData = [
   {
+    date: '03.03.2020',
+    campaign: 'C4',
+    datasource: 'D3',
+    clicks: 4342,
+    impressions: 4432,
+  },
+  {
     date: '01.01.2020',
     campaign: 'C1',
     datasource: 'D1',
@@ -26,13 +33,6 @@ const mockData = [
     datasource: 'D1',
     clicks: 123,
     impressions: 3422,
-  },
-  {
-    date: '03.03.2020',
-    campaign: 'C4',
-    datasource: 'D3',
-    clicks: 4342,
-    impressions: 4432,
   },
   {
     date: '04.05.2020',
